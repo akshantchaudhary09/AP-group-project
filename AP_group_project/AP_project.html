@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,th,td{
+                border: 1px solid #748de2;
+                border-collapse: collapse;
+                text-align: left;
+                border-left: none;
+                border-right: none;
+            }
+            .bigImg{
+	            position:absolute;
+	            border: solid 10px black;
+	            margin:10px;
+	            background-color:#FFFFFF;
+	            padding:10px;
+            }
+        </style>
+    </head>
+        <body style="padding-left: 80px;padding-right: 80px">
+            <form>
+                <fieldset style="margin-top: 10px;margin-bottom: 10px;margin-left: 30px;margin-right: 30px; padding: 15px;border-color: #748de2; background-color: #dde5ff">
+                    <input type="text" value="Search titles">
+                    <input type="button" value="Search">
+                </fieldset>
+                <fieldset style="margin-top: 10px;margin-bottom: 10px;margin-left: 30px;margin-right: 30px;padding: 15px;border-color: #748de2;background-color: #dde5ff">
+                    <select>
+                        <option value="Actions">Actions</option>
+                        <option value="Archive">Archive</option>
+                        <option value="Delete">Delete</option>
+                    </select>
+                    <input type="button" value="Apply">
+                        <select >
+                        <option value="Romanticism">Romanticism</option>
+                        <option value="Mannerism">Mannerism</option>
+                        <option value="Realism">Realism</option>
+                        <option value="Neo-Classicism">Neo-Classicism</option>
+                    </select>
+                    <input type="button" value="Filter">
+                </fieldset>
+            </form>
+        <fieldset style="border-color: #748de2; margin-left: 30px;margin-right: 30px">
+            <table style="margin-top: 5px;margin-bottom: 5px;margin-left: 30px;width: 94%">
+                <tr>
+                    <th colspan="20" style="padding-left: 425px;padding-bottom: 10px;padding-top: 10px;background-color: #97abeb;font-size: 25px">Paintings</th>
+                </tr>
+                <tr style="background-color: #dde5ff">
+                    <th></th>
+                    <th></th>
+                    <th>Title</th>
+                    <th>Artist</th>
+                    <th>Year</th>
+                    <th>Genre</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td style="width: 200px"><img src="1.jpg" class="art" style="width: 48%;height: 30%;padding-top: 5px"></td>
+                    <td>Death of Marat</td>
+                    <td>David, jacques-Louis</td>
+                    <td>1793</td>
+                    <td>Romanticism</td>
+                    <td><button>Edit</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="2.jpg" class="art" style="width: 48%;height: 30%;padding-top: 5px"></td>
+                    <td>Portrait of Eleanor of Toledo</td>
+                    <td>Bronzino, Agnolo</td>
+                    <td>1545</td>
+                    <td>Mannerism</td>
+                    <td><button>Edit</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="3.jpg" class="art" style="width: 48%;height: 30%;padding-top: 5px"></td>
+                    <td>Liberty Leading the People</td>
+                    <td>Delacroix, Eugene</td>
+                    <td>1830</td>
+                    <td>Romanticism</td>
+                    <td><button>Edit</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="4.jpg" class="art" style="width: 48%;height: 30%;padding-top: 5px"></td>
+                    <td>Arrangement in Geray and Black</td>
+                    <td>Whistler, james Abbott</td>
+                    <td>1871</td>
+                    <td>Realism</td>
+                    <td><button>Edit</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><img src="5.jpg" class="art" style="width: 48%;height: 30%;padding-top: 5px"></td>
+                    <td>Mademoiselle Caroline Riviere</td>
+                    <td>Ingres, jean-Auguste</td>
+                    <td>1806</td>
+                    <td>Neo-classicism</td>
+                    <td><button>Edit</button></td>
+                </tr>
+            </table> 
+        </fieldset> 
+            <script src="AP_project.js"></script>
+        </body>    
+</html>
